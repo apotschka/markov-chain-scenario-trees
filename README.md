@@ -3,7 +3,7 @@
 # Markov chain scenario trees
 Fast optimal pruning for Markov chain scenario tree NMPC.
 
-For the impatient, for whom the ![documentation](https://markov-chain-scenario-trees.readthedocs.io) is ![tl;dr](https://www.urbandictionary.com/define.php?term=tl%3Bdr):
+For the impatient, for whom the [documentation](https://markov-chain-scenario-trees.readthedocs.io) is [tl;dr](https://www.urbandictionary.com/define.php?term=tl%3Bdr):
 
 ```
 $ python example.py
