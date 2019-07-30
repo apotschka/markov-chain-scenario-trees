@@ -39,7 +39,7 @@ def branchwise(tree):
     nodes: set
         Set of `nodes` of the tree represented by scenario tuples.
     edges: set
-        Set of `edges` of type (`nodes`[i], `nodes`[j]) of the tree.
+        Set of `edges` of type ``(nodes[i], nodes[j])`` of the tree.
     """
     edges = {(v[0:i], v[0:i+1]) for v in tree for i in range(1, len(v))}
     nodes = {v for e in edges for v in e}
@@ -171,17 +171,12 @@ def scenario_tree_from_markov_chain(A, depth, start_state=0,
         Cumulative probability (coverage) of the scenarios.
     max_cut_scenario_prob: float
         Maximum of all discarded single scenario probabilities.
-    cum_timings (len(tree),) ndarray
+    cum_timings: (len(tree),) ndarray
         Only if `timing`: Cumulative runtime for each computed scenario.
 
     Notes
     -----
     Uses the polynomial-time algorithm published in [1]_.
-
-    References
-    ----------
-    .. [1] C. Leidereiter, D. Kouzoupis, M. Diehl, A. Potschka, "Fast
-       optimal pruning for Markov chain scenario tree NMPC", 2019.
 
     Examples
     --------
