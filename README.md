@@ -1,4 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/markov-chain-scenario-trees/badge/?version=latest)](https://markov-chain-scenario-trees.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3356196.svg)](https://doi.org/10.5281/zenodo.3356196)
 
 # Markov chain scenario trees
 Fast optimal pruning for Markov chain scenario tree NMPC.
