@@ -43,4 +43,5 @@ axes[0].set_ylabel("Runtime [s]")
 axes[1].plot(n_scen, 100 * coverage, "k-", label="Coverage")
 axes[1].set_ylabel("Coverage [%]")
 axes[1].set_xlabel("Number of scenarios")
+plt.show()
 
